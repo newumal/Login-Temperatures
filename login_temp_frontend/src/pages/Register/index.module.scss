@@ -1,0 +1,60 @@
+.login_container {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login_form > h1 {
+  font-size: 35px;
+  alignment: center;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  letter-spacing: -1px;
+}
+
+.login_form > input {
+  min-width: 300px;
+  padding: 10px 0;
+  padding-left: 15px !important;
+  margin-bottom: 10px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 2px;
+  font-size: 12px;
+  background-color: white;
+
+}
+
+.login_button {
+  min-width: 300px;
+  padding: 12px 30px;
+  margin-top: 20px;
+  background: black;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 2px;
+}
+.login_button:hover{
+  min-width: 300px;
+  padding: 12px 30px;
+  margin-top: 20px;
+  background: blueviolet;
+  border: none;
+}
+
+.register_button {
+  alignment: center;
+  padding: 5px;
+  margin: 10px;
+}
